@@ -1,18 +1,28 @@
 .container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: [line1] 1fr [line2] 1fr [line3] 1fr;
+  grid-template-rows: [line1] 0.5fr [line2] 2fr [line3] 0.5fr;
+  grid-template-areas: "header header sidebar" "main main main" "footer footer footer ";
+  gap: 10px;
 }
 
 .item-1 {
   border: 1px solid green;
+  grid-area: header;
 }
 
 .item-2 {
   border: 1px solid blue;
+  grid-area: sidebar;
 }
 
 .item-3 {
   border: 1px solid yellow;
+  grid-area: main;
 }
 
 .item-4 {
   border: 1px solid pink;
+  grid-area: footer;
 }
