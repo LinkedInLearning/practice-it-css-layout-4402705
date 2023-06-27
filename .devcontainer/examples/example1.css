@@ -2,15 +2,15 @@
   display: grid;
   height: 100%;
   border: 1px solid red;
-  grid-template-columns: [line1] 1fr [line2] 1fr [line3] 1fr;
-  grid-template-rows: [line1] 1fr [line2] 1fr [line3] 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
   grid-template-areas: "header header header" "sidebar main main" "footer footer footer ";
 
   grid-template:
-    [column1-start] "header header header" 1fr [column3-end]
-    [column1-start] "sidebar main main" 1fr [column3-end]
-    [column1-start] "footer footer footer" 1fr [column3-end];
+    "header header header" 1fr
+    "sidebar main main" 1fr
+    "footer footer footer" 1fr;
 }
 
 .item-1 {
