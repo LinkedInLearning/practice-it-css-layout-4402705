@@ -28,9 +28,9 @@ Commit changes using this command: git commit -m "some message"
 1. To use these exercise files, you must have the following installed:
    - [list of requirements for course]
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. To begin exercise 1, go to tree/01_06b
-   To begin exercise 2, go to tree/02_06b
-   To begin exercise 3, go to tree/04_03b
+3. To begin exercise 1, go to tree/01_06b\
+   To begin exercise 2, go to tree/02_06b\
+   To begin exercise 3, go to tree/04_03b\
 
 [0]: # "Replace these placeholder URLs with actual course URLs"
 [lil-course-url]: https://www.linkedin.com/learning/
